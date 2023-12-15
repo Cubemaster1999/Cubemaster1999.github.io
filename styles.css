@@ -12,6 +12,14 @@ body {
     height: auto;
 }
 
+#work-in-progress {
+    background-color: rgb(207, 207, 60);
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+
 nav {
     background-color: #333;
 }
