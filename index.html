@@ -5,24 +5,38 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <header>
+        <img id="header-image" src="header_img_cut.png" alt="Quantum Chip">
+    </header>
     <main>
         <section id="about">
-            <h2>About Me</h2>
             <!-- Your content here -->
         </section>
         <section id="project">
-            <h2>Project List</h2>
-            <table>
-                <tr>
-                    <th>Personal Projects</th>
-                    <th>Work Projects</th>
-                </tr>
-                <tr>
-                    <td><!-- Personal project 1 --></td>
-                    <td><!-- Work project 1 --></td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </table>
+            <button id="personal-projects-btn">Personal Projects</button>
+            <button id="work-projects-btn">Work Projects</button>
+            <button id="research-btn">Research</button>
+            <button id="interests-btn">Interests</button>
+            
+
+            <section id="personal-projects">
+            <!-- Personal projects go here -->
+            <p>Content Projects</p>
+            </section>
+
+            <section id="work-projects" style="display: none;">
+            <!-- Work projects go here -->
+            <p>Content Work</p>
+            </section>
+            <section id="interests" style="display: none;">
+                <!-- Interests content goes here -->
+                <p>Content Interests</p>
+            </section>
+            
+            <section id="research" style="display: none;">
+                <!-- Research content goes here -->
+                <p>Content Research</p>
+            </section>
         </section>
         
     </main>
@@ -36,5 +50,7 @@
         </nav>
         <p>Copyright &copy; 2023 Jannik Pflieger</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
