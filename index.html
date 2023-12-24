@@ -8,49 +8,60 @@
     <header>
         <img id="header-image" src="header_img_cut.png" alt="Quantum Chip">
     </header>
-    <main>
-        <section id="work-in-progress">
-            <p>Work in Progress</p>
-        </section>
-        <section id="about">
-            <!-- Your content here -->
-        </section>
-        <section id="project">
-            <button id="personal-projects-btn">Personal Projects</button>
-            <button id="work-projects-btn">Work Projects</button>
-            <button id="research-btn">Research</button>
-            <button id="interests-btn">Interests</button>
-            
 
-            <section id="personal-projects">
+    <div id="button_main">
+    <div id="buttons">
+        <button class="nav-button" id="about-btn">About</button>
+        <button class="nav-button" id="personal-projects-btn">Personal Projects</button>
+        <button class="nav-button" id="work-projects-btn">Work Projects</button>
+        <button class="nav-button" id="research-btn">Research</button>
+        <button class="nav-button" id="interests-btn">Interests</button>
+    </div>
+    <div id="main-content">
+    <main>
+
+        <div id="content">
+            <section class="content-sec" id="about">
+                I'm a German computer scientist with a passion for quantum computing! 
+                Currently, I am a master's student at TU Munich studying computer science. </br>
+                I use this site to document my progress and present my past, current, and future work.
+                Up until now, I have been working a lot on quantum circuit creation,  quantum algorithms, and quantum compilers.            Of course, I am also interested in other topics related to quantum computing or computer science, physics, and other nature sciences.
+
+            </section>
+            <section class="content-sec" id="personal-projects" style="display: none;">
             <!-- Personal projects go here -->
             <p>Content Projects</p>
             </section>
 
-            <section id="work-projects" style="display: none;">
+            <section class="content-sec" id="work-projects" style="display: none;">
             <!-- Work projects go here -->
             <p>Content Work</p>
             </section>
-            <section id="interests" style="display: none;">
+            <section class="content-sec" id="interests" style="display: none;">
                 <!-- Interests content goes here -->
                 <p>Content Interests</p>
             </section>
             
-            <section id="research" style="display: none;">
+            <section class="content-sec" id="research" style="display: none;">
                 <!-- Research content goes here -->
                 <p>Content Research</p>
             </section>
-        </section>
-        
+    </div>
     </main>
+    </div>
+    </div>
     <footer>
         <nav>
             <ul>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/jannik-pflieger-470a83234/">LinkedIn</a></li>
+                <li><a href="mailto:jannik.pflieger@gmail.com">Email</a></li>
+                <!--<li><a href="https://discordapp.com/users/your-discord-username">Discord</a></li>-->
+                <li><a href="https://github.com/Cubemaster1999">GitHub</a></li>
             </ul>
         </nav>
         <p>Jannik Pflieger</p>
     </footer>
+    
 
     <script src="script.js"></script>
 </body>

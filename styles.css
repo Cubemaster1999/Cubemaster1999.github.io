@@ -2,9 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    color: white; /* Make all text white */
-    text-align: center; /* Center everything */
+    background-color: #fff;
+    color: black; /* Make all text white */
 }
 
 #header-image {
@@ -12,16 +11,33 @@ body {
     height: auto;
 }
 
-#work-in-progress {
-    background-color: rgb(207, 207, 60);
-    color: black;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: center;
+
+#main{
+    margin-left: 200px; 
+    width: 100%;
+    min-width: 300px;
+    max-width: 800px;
+    height: auto;
+    text-align: left;
+}
+
+
+
+
+#buttons {
+    position: fixed;
+    width: 200px; /* Adjust as needed */
+    height: 100%;
+    overflow: auto;
+}
+
+#content {
+    font-size: x-large;
+    margin-left: 200px; /* Should be the same as the width of #buttons */
 }
 
 nav {
-    background-color: #333;
+    background-color: white;
 }
 
 nav ul {
@@ -37,14 +53,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white; /* Make navigation links white */
+    color: black; /* Make navigation links white */
 }
 
 
-#personal-projects-btn, #work-projects-btn, #interests-btn, #research-btn {
-    background-color: #333;
-    border: 2px solid #555;
+.nav-button {
+    background-color: #555;
+    border: 2px solid #999;
+    border-radius: 10px;
     color: white;
+    width: 100%;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -55,7 +73,7 @@ nav ul li a {
     transition-duration: 0.4s;
 }
 
-#personal-projects-btn:hover, #work-projects-btn:hover, #interests-btn:hover, #research-btn:hover {
+.nav-button:hover {
     background-color: #457ba0;
 }
 
@@ -64,8 +82,9 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
     text-align: center;
-    padding: 10px 0;
 }
